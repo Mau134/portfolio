@@ -16,7 +16,7 @@ const Contact = () => {
         <div id='clients'>
             <h1 className='contactPageTitle'>My Clients</h1>
             <p className='clientDesc'>
-                LoremElit
+                Here are some of my clients that I have worked for. 
             </p>
             <div className='clientImgs'>
                 <img src={Walmart} alt='Clients' className='clientImg'/>

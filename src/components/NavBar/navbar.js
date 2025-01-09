@@ -12,41 +12,52 @@ const Navbar = () => {
         <Link
           to="home"
           className="desktopMenuItem"
+          activeClass='active'
           spy={true}
           smooth={true}
           duration={500}
+          offset={-100}
         >
           Home
         </Link>
         <Link
           to="about"
           className="desktopMenuItem"
+          activeClass='active'
           spy={true}
           smooth={true}
           duration={500}
+          offset={-100}
         >
           About
         </Link>
+        
         <Link
           to="portfolio"
           className="desktopMenuItem"
+          activeClass='active'
           spy={true}
           smooth={true}
           duration={500}
+          offset={-100}
         >
           Portfolio
         </Link>
         <Link
           to="clients"
           className="desktopMenuItem"
+          activeClass='active'
           spy={true}
           smooth={true}
           duration={500}
+          offset={-100}
         >
           Clients
         </Link>
       </div>
-      <button className="deskTopMenuBtn">
+      <button className="deskTopMenuBtn" onClick={() =>{
+        document.getElementById('contact').scrollIntoView({behavior:'smooth'})
+      }}>
         <img src={contactImg} alt="" className="deskTopMenuImg" /> Contact Me
       </button>
     </nav>

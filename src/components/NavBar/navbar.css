@@ -44,3 +44,8 @@
     margin: 1rem;
 
 }
+
+.active{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
